@@ -1,4 +1,33 @@
-body {
-    font-family: sans-serif;
-    line-height: 1.5;
-}
+.schedule-body > tr:hover {
+    background-color: seashell;
+    color: blueviolet;
+  }
+  
+  /* Table design */
+  .schedule {
+    border-collapse: collapse;
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
+  }
+
+  .text {
+    background-color: tomato;
+    color: white;
+  }
+
+  .post-title {
+    letter-spacing: 4px;
+  }
+  
+  .post-text {
+    letter-spacing: 1px;
+  }
+
+  .title {
+    color: mediumorchid;
+    text-shadow: 2px 2px 4px black;
+  }
